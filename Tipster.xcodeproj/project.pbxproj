@@ -12,6 +12,7 @@
 		B5838DDE1E1EA033004F0D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5838DDC1E1EA033004F0D56 /* Main.storyboard */; };
 		B5838DE01E1EA033004F0D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5838DDF1E1EA033004F0D56 /* Assets.xcassets */; };
 		B5838DE31E1EA033004F0D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5838DE11E1EA033004F0D56 /* LaunchScreen.storyboard */; };
+		B5AABC511E208492004CF528 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AABC501E208491004CF528 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B5838DDF1E1EA033004F0D56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5838DE21E1EA033004F0D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5838DE41E1EA033004F0D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AABC501E208491004CF528 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B5838DD81E1EA033004F0D56 /* AppDelegate.swift */,
 				B5838DDA1E1EA033004F0D56 /* ViewController.swift */,
 				B5838DDC1E1EA033004F0D56 /* Main.storyboard */,
+				B5AABC501E208491004CF528 /* SettingViewController.swift */,
 				B5838DDF1E1EA033004F0D56 /* Assets.xcassets */,
 				B5838DE11E1EA033004F0D56 /* LaunchScreen.storyboard */,
 				B5838DE41E1EA033004F0D56 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				B5838DDB1E1EA033004F0D56 /* ViewController.swift in Sources */,
 				B5838DD91E1EA033004F0D56 /* AppDelegate.swift in Sources */,
+				B5AABC511E208492004CF528 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +269,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicholaschung.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -277,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicholaschung.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -299,6 +305,7 @@
 				B5838DE91E1EA033004F0D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
