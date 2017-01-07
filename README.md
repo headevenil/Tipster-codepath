@@ -33,7 +33,7 @@ Switching to Swift 3.0 and designing the storyboard was really the biggest chall
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2017] [Nicholas Chung]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
